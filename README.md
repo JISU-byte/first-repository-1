@@ -10,22 +10,15 @@
 - [o]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
 
-    def Q1():
+      def Q1():
     answer = ''.join(random.sample('0123456789', 5))
     print('===숫자 야구 게임===')
     attempt = 0
 
     while True:
-    guess = input('5가지 숫자를 입력하세요. / quit하면 loop 탈출')
-    if guess == 'quit':
-      break
-    if len(guess) != 5 or not guess.isdigit():
-      print('다시 입력하세요.')
-      continue
-
-    elif len(set(guess)) != 5:
-      print('다시 입력해주세요. 서로 다른 5가지 숫자로 !')
-      continue
+        guess = input('5가지 숫자를 입력하세요. / quit하면 loop 탈출')
+        if guess == 'quit':
+            break
 
 
 - 숫자를 랜덤으로 돌려서 게임을 직접 탈출할 때까지 지속할 수 있는 부분이 핵심이라고 생각했습니다.
