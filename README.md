@@ -6,9 +6,10 @@
 # PRT(Peer Review Template)
 
 - [o]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
-    -
+
 - [o]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
+
 def Q1():
     answer = ''.join(random.sample('0123456789', 5))
     print('===숫자 야구 게임===')
@@ -34,7 +35,8 @@ def Q1():
 - [o]  **4. 회고를 잘 작성했나요?**
         
 - [o]  **5. 코드가 간결하고 효율적인가요?**
-    while True:
+
+  while True:
         guess = input('5가지 숫자를 입력하세요. / quit하면 loop 탈출')
         if guess == 'quit':
             break
